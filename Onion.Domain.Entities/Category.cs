@@ -12,8 +12,8 @@ namespace Onion.Domain.Entities
 
         public virtual int CategoryId { get; set; }
 
-        public string CategoryName { get; set; }
+        public virtual string CategoryName { get; set; }
 
-        public IEnumerable<Product> Products { get; set; }
+        public virtual IEnumerable<Product> Products { get; set; }
     }
 }

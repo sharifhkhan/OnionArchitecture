@@ -23,7 +23,17 @@
         {
             var productRepo = new ProductRepository(this.northwind);
             IEnumerable<Product> data = productRepo.GetProducts();
-            System.Console.WriteLine(data.Count());
+
+            // foreach (var product in data)
+            // {
+            // IEnumerable list = product.GetType().GetProperties();
+            // System.Console.WriteLine("---------");
+            // foreach (var property in list)
+            // {
+            // System.Console.WriteLine("Prop is " + property);   
+            // }
+            // System.Console.WriteLine("---------");
+            // }
             Assert.That(data.Any(), "Found: " + data.Count().ToString());
         }
 
@@ -32,7 +42,6 @@
         {
             var productRepo = new ProductRepository(this.northwind);
             IEnumerable<Product> data = productRepo.GetProductsByCategoryId(1);
-            System.Console.WriteLine(data.Count());
             Assert.That(data.Any(), "Found: " + data.Count().ToString());
         }
     }
