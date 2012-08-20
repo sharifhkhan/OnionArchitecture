@@ -18,5 +18,10 @@
         {
             return this.productRepo.GetProducts();
         }
+
+        public IEnumerable<Product> Get(int id)
+        {
+            return this.productRepo.GetProductsByCategoryId(id);
+        }
     }
 }

@@ -19,7 +19,7 @@ namespace Onion.Infrastructure.Services.App_Start
     {
         #region Static Fields
 
-        private static readonly Bootstrapper bootstrapper = new Bootstrapper();
+        private static readonly Bootstrapper Bootstrapper = new Bootstrapper();
 
         #endregion
 
@@ -30,7 +30,7 @@ namespace Onion.Infrastructure.Services.App_Start
         {
             DynamicModuleUtility.RegisterModule(typeof(OnePerRequestHttpModule));
             DynamicModuleUtility.RegisterModule(typeof(NinjectHttpModule));
-            bootstrapper.Initialize(CreateKernel);
+            Bootstrapper.Initialize(CreateKernel);
         }
 
         /// <summary>
@@ -38,10 +38,8 @@ namespace Onion.Infrastructure.Services.App_Start
         /// </summary>
         public static void Stop()
         {
-            bootstrapper.ShutDown();
+            Bootstrapper.ShutDown();
         }
-
-        #region Methods
 
         /// <summary>
         ///   Creates the kernel that will manage your application.
@@ -70,10 +68,8 @@ namespace Onion.Infrastructure.Services.App_Start
         private static void RegisterServices(IKernel kernel)
         {
             kernel.Bind<IRepositoryContext>().To<Northwind>();
-
+            kernel.Bind<ICategoryRepository>().To<CategoryRepository>();
             kernel.Bind<IProductRepository>().To<ProductRepository>();
         }
-
-        #endregion
     }
 }

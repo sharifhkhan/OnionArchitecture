@@ -14,6 +14,11 @@
                 name: "DefaultApi", 
                 routeTemplate: "api/{controller}/{id}", 
                 defaults: new { id = RouteParameter.Optional });
+
+            routes.MapHttpRoute(
+                name: "ProductsByCategories", 
+                routeTemplate: "api/categories/{id}/products", 
+                defaults: new { controller = "Products" });
         }
     }
 }

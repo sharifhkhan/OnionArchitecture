@@ -26,6 +26,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UserAcceptance", "UserAccep
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Onion.Infrastructure.Services", "Onion.Infrastructure.Services\Onion.Infrastructure.Services.csproj", "{71092F99-CB41-4F87-B2AA-5E67C37DAEDC}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Client", "Client", "{AEA96F18-31A8-404E-BC5B-BDAAC17EAB9B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Onion.Client.jQueryMobileSite", "Onion.Client.jQueryMobileSite\Onion.Client.jQueryMobileSite.csproj", "{F9B6EBB9-BC66-460B-88B1-3C4258BD0496}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -106,6 +110,16 @@ Global
 		{71092F99-CB41-4F87-B2AA-5E67C37DAEDC}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{71092F99-CB41-4F87-B2AA-5E67C37DAEDC}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{71092F99-CB41-4F87-B2AA-5E67C37DAEDC}.Release|x86.ActiveCfg = Release|Any CPU
+		{F9B6EBB9-BC66-460B-88B1-3C4258BD0496}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9B6EBB9-BC66-460B-88B1-3C4258BD0496}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9B6EBB9-BC66-460B-88B1-3C4258BD0496}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{F9B6EBB9-BC66-460B-88B1-3C4258BD0496}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{F9B6EBB9-BC66-460B-88B1-3C4258BD0496}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{F9B6EBB9-BC66-460B-88B1-3C4258BD0496}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9B6EBB9-BC66-460B-88B1-3C4258BD0496}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9B6EBB9-BC66-460B-88B1-3C4258BD0496}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{F9B6EBB9-BC66-460B-88B1-3C4258BD0496}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{F9B6EBB9-BC66-460B-88B1-3C4258BD0496}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -118,5 +132,6 @@ Global
 		{0B7C69EE-2A60-43AC-BB5E-224FE2A79A25} = {15CB6C47-3442-4B23-9723-845F268A61D9}
 		{B7964AC0-97A5-4CAB-AE81-AFD78653FED6} = {15CB6C47-3442-4B23-9723-845F268A61D9}
 		{71092F99-CB41-4F87-B2AA-5E67C37DAEDC} = {15CB6C47-3442-4B23-9723-845F268A61D9}
+		{F9B6EBB9-BC66-460B-88B1-3C4258BD0496} = {AEA96F18-31A8-404E-BC5B-BDAAC17EAB9B}
 	EndGlobalSection
 EndGlobal
