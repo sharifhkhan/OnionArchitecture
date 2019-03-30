@@ -10,13 +10,13 @@ This template was made based on [Tony Sneed's Peeling Back the Onion Architectur
 
 ## Technology overview:
 
-- Specflow
-- NUnit
-- Moq
-- Entity Framework Code First
-- MVC4 Web API
-- Ninject
-- JSON.NET
+- Specflow <br>
+- NUnit <br>
+- Moq <br>
+- Entity Framework Code First <br>
+- MVC4 Web API <br>
+- Ninject <br>
+- JSON.NET <br>
 
 ## Archive notes:
 
