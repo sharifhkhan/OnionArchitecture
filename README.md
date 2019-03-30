@@ -5,18 +5,20 @@ This template was made based on [Tony Sneed's Peeling Back the Onion Architectur
 ## REST api calls: 
 
 `localhost:{port}/api/products`
+
 `localhost:{port}/api/categories`
+
 `localhost:{port}/api/categories/{productId}/products`
 
 ## Technology overview:
 
-- Specflow <br>
-- NUnit <br>
+- Specflow
+- NUnit
 - Moq <br>
-- Entity Framework Code First <br>
-- MVC4 Web API <br>
-- Ninject <br>
-- JSON.NET <br>
+- Entity Framework Code First
+- MVC4 Web API
+- Ninject
+- JSON.NET
 
 ## Archive notes:
 
